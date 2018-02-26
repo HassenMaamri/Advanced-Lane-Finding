@@ -30,7 +30,7 @@ Please review the installation instructions [here](https://github.com/udacity/Ca
 [image1]: ./examples/undistort_output.png "Undistorted"
 [image2]: ./examples/demo.gif "Demo"
 [image3]: ./examples/binary_combo_example.jpg "Binary Example"
-[image4]: ./examples/image4.PNG "diagrams"
+[image4]: ./examples/image4.JPG "diagrams"
 [image5]: ./examples/Calib.JPG "Calibration"
 [image6]: ./examples/example_output.jpg "Output"
 [video1]: ./project_video.mp4 "Video"
