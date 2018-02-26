@@ -27,12 +27,12 @@ Please review the installation instructions [here](https://github.com/udacity/Ca
 
 [//]: # (Image References)
 
-[image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./examples/demo.gif "Demo"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
-[image4]: ./examples/image4.JPG "diagrams"
-[image5]: ./examples/Calib.JPG "Calibration"
-[image6]: ./examples/example_output.jpg "Output"
+[image1]: ./output_images/undistort_output.png "Undistorted"
+[image2]: ./output_images/demo.gif "Demo"
+[image3]: ./output_images/binary_combo_example.jpg "Binary Example"
+[image4]: ./output_images/image4.JPG "diagrams"
+[image5]: ./output_images/Calib.JPG "Calibration"
+[image6]: ./output_images/example_output.jpg "Output"
 [video1]: ./project_video.mp4 "Video"
 
 
