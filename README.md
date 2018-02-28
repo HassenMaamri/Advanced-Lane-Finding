@@ -28,7 +28,7 @@ Please review the installation instructions [here](https://github.com/udacity/Ca
 [//]: # (Image References)
 
 [image1]: ./output_images/undistort_output.png "Undistorted"
-[image2]: ./output_images/demo.gif "Demo"
+[image2]: ./output_images/demo1.gif "Demo"
 [image3]: ./output_images/binary_combo_example.jpg "Binary Example"
 [image4]: ./output_images/image4.JPG "diagrams"
 [image5]: ./output_images/Calib.JPG "Calibration"
