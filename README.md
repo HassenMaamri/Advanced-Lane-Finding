@@ -55,7 +55,7 @@ To undistort an image, I used 20 images of chess boards that are taken from a di
 
 ### Binary thresholds 
 
-Binary threshold images help isolate only the pixels belonging to lane lines. To convert the warped image to different color spaces and create binary thresholded images, I used the absolute Sobel threshold, the magnitude Sobel threshold, and the directional Sobel threshold.
+Binary threshold images help isolate only the pixels belonging to lane lines. To convert the warped image to different color spaces and create binary thresholded images, I used S Channel from the HLS color space, with a min threshold of 180 and a max threshold of 255 to identify white and yellow lines. I also used L Channel from the LUV color space, with a min threshold of 225 and a max threshold of 255 which did a better job detecting white lines and B channel from the Lab color space, with a min threshold of 155 and an upper threshold of 200 for better yellow lines detection.
 
 ![alt text][image3]
 
@@ -81,4 +81,4 @@ Here's a [link to my video result](./project_video_OUTPUT.mp4)
 
 ### Discussion
 
-This pipeline can be challenged with changing weather conditions, road quality, lighting, and different types of driving conditions like lane shifts and exiting.
+This pipeline did a fairly good job detecting both white and yellow lines on the road captured in the provided video. The challenging part was to deal with lighting and shadows. However, it can still be challenged with weather conditions, road quality (confusion between lines and cracks), and different types of driving conditions like lane shifts and exiting. It would be interesting to test this pipeline with different videos of different roads. Deep-learning-based semantic segmentation can help the pipeline with better pixel detection for these challenges.
